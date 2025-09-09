@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "powerfulpoweredrails",
+  "version": "1.0",
+  "name": "powerfulpoweredrails",
+  "description": "Increases acceleration of Powered Rails",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "seefour.powerfulpoweredrails.Powerfulpoweredrails"
+    ]
+  },
+  "mixins": [
+    "powerfulpoweredrails.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}

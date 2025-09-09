@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "seefour.powerfulpoweredrails.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExperimentalMinecartEntityMixin",
+    "DefaultMinecartEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
