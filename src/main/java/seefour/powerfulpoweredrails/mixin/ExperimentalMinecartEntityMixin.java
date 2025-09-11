@@ -11,9 +11,10 @@ public abstract class ExperimentalMinecartEntityMixin {
 
     @ModifyConstant(
             method = "accelerateFromPoweredRail",
-            constant = @Constant(doubleValue = 0.06)
+            constant = @Constant(doubleValue = 0.06) // constant in MC source code targeted to be replaced with our own value. DO NOT CHANGE
     )
     private double modifyPoweredRailAccelerationExperimental(double originalValue) {
         return Powerfulpoweredrails.ACCELERATION;
     }
+
 }
